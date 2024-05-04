@@ -7,10 +7,18 @@ import Carousel from "../components/Carousel";
 const Home = () => {
   return (
     <>
-      <NavBar />
-      <Carousel/>
-      <Card/>
-      <Footer />
+      <div>
+        <NavBar />
+      </div>
+      <div>
+        <Carousel />
+      </div>
+      <div className="m-4">
+        <Card />
+      </div>
+      <div>
+        <Footer />
+      </div>
     </>
   );
 };
