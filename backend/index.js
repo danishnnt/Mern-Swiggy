@@ -1,9 +1,10 @@
 const express = require('express')
 const app = express()
 const port = 5000
+const MongoDbLink = require("./db")
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('Hello Danish')
 })
 
 app.listen(port, () => {
