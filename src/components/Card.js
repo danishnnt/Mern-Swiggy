@@ -7,7 +7,7 @@ const Card = () => {
         <div className="card-body">
           <h5 className="card-title">Card title</h5>
           <p className="card-text">
-            This is some importanat text.
+            This is some important text.
           </p>
           <div className="container w-100">
            <select className="m-2 h-100 rounded">
@@ -17,6 +17,7 @@ const Card = () => {
               )
             }
             )}
+
            </select>
            <select className="m-2 h-100 rounded">
             <option value="half">Half</option>
