@@ -4,6 +4,8 @@ import Footer from "../components/Footer";
 import Card from "../components/Card";
 import Carousel from "../components/Carousel";
 
+// body
+
 const Home = () => {
   return (
     <>
